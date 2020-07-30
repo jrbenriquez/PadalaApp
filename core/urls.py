@@ -19,7 +19,6 @@ from authentication.views import set_cookie
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', include('demo.urls')),
     path('auth/', include('authentication.urls')),
     path('authorize', set_cookie, name='set-cookie')
 ]

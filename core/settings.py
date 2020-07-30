@@ -43,8 +43,8 @@ INSTALLED_APPS = [
     'corsheaders',
     'rest_framework',
     'rest_framework.authtoken',
-    'demo.apps.DemoConfig',
-    'authentication.apps.AuthorizationConfig'
+    'authentication.apps.AuthorizationConfig',
+    'padala.apps.PadalaConfig'
 ]
 
 CORS_ORIGIN_WHITELIST = [

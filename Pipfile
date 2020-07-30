@@ -28,6 +28,7 @@ wcwidth = "==0.1.9"
 Django = "==3.0.7"
 ipython_genutils = "==0.2.0"
 Pygments = "==2.6.1"
+faker = "*"
 
 [requires]
 python_version = "3.6"
